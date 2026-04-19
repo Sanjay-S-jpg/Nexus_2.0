@@ -1,0 +1,29 @@
+# ============================================================
+# Gods Eye 2.0 - AI Crowd Stampede Detection System
+# Requirements for Python 3.8+
+# ============================================================
+
+# Core AI & Computer Vision
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Tracking & Re-identification
+lap>=0.4.0
+
+# Alerts & Notifications
+requests>=2.28.0
+plyer>=2.1.0
+
+# Visualization
+matplotlib>=3.7.0
+Pillow>=9.5.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0

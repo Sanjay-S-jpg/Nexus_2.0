@@ -1,0 +1,26 @@
+# ============================================================
+# CrowdShield - Python Dependencies
+# ============================================================
+# Install all with: pip install -r requirements.txt
+# ============================================================
+
+# Core AI / Computer Vision
+ultralytics>=8.0.0       # YOLOv8 object detection & pose estimation
+opencv-python>=4.8.0     # OpenCV for video processing & image manipulation
+numpy>=1.24.0            # Numerical computing (arrays, math)
+
+# Deep Learning Backend (CUDA support for your RTX 4050)
+torch>=2.0.0             # PyTorch deep learning framework
+torchvision>=0.15.0      # PyTorch vision utilities
+
+# Web Dashboard
+streamlit>=1.28.0        # Web-based UI framework
+
+# Data & Reporting
+pandas>=2.0.0            # Data analysis for reports
+matplotlib>=3.7.0        # Plotting and visualization
+Pillow>=9.0.0            # Image processing
+
+# Optional: Performance & Utilities
+python-dotenv>=1.0.0     # Load environment variables from .env
+

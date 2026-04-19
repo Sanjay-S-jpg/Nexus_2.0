@@ -1,0 +1,19 @@
+# Models
+*.pt
+*.pth
+models/
+
+# Env
+venv/
+.env
+
+# Cache
+__pycache__/
+
+# Media
+*.mp4
+Videos/
+
+# OS junk
+.DS_Store
+Thumbs.db

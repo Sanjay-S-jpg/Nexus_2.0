@@ -1,0 +1,89 @@
+# ============================================================
+# Python Virtual Environments
+# ============================================================
+venv/
+venv*/
+env/
+env*/
+.venv
+ENV/
+*.egg-info/
+dist/
+build/
+
+# ============================================================
+# Python Cache & Compiled Files
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ============================================================
+# Environment Variables
+# ============================================================
+.env
+.env.local
+.env.*.local
+
+# ============================================================
+# IDE & Editor Files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# ============================================================
+# Project-Specific Files
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+crowdshield.db
+
+# Large Model Weights (download on demand)
+*.pt
+*.weights
+*.pth
+*.onnx
+
+# Data & Uploads
+data/videos/
+data/uploads/
+reports/*.jpg
+reports/*.png
+reports/*.mp4
+
+# ============================================================
+# Logs & Temporary Files
+# ============================================================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+
+# ============================================================
+# OS Files
+# ============================================================
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# VS Code Workspace Settings (optional, keep if you want to share settings)
+# ============================================================
+# .vscode/settings.json
+# .vscode/launch.json
+*.pt
+*.pth
+models/*.pt
+models/*.pth
